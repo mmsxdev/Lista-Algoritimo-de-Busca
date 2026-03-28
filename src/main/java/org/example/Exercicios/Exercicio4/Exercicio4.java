@@ -1,5 +1,15 @@
 package org.example.Exercicios.Exercicio4;
 
+// Exercício 4 – Validação de Ordenação
+
+// Crie um programa que:
+//  Receba um vetor
+//  Verifique se ele está ordenado
+//  Só permita executar busca binária se estiver ordenado
+
+// Caso não esteja:
+// “Vetor não ordenado! Não é possível aplicar busca binária.”
+
 public class Exercicio4 {
     public boolean VetorOrdenado(int[] vetor) {
         for (int i = 0; i < vetor.length - 1; i++) {
